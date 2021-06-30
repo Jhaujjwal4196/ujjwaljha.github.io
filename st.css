@@ -1,0 +1,17 @@
+.timeline-traveller{
+   position: relative;
+    width: 75%;
+    border: 2px solid black;
+}
+
+.timeline-box{
+    position: relative;
+    width: 45%;
+    border: 2px solid rgb(230, 220, 245);
+    left: 2px;
+    min-height: 150px;
+    margin: 5px;
+}
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
